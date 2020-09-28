@@ -2,7 +2,10 @@
 using UnityEditor;
 using UnityEngine;
 
-//credits: keeps brum liq
+//credits
+//ui and logic  http://twitter.com/brumCGI
+//Get/SetChannelValue https://twitter.com/keepeetron/
+
 public class TextureChannelCombiner : EditorWindow
 {
     [MenuItem("Window/Generation/TextureChannelCombiner")]
