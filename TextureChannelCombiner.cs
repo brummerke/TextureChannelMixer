@@ -1,4 +1,5 @@
-﻿using System.IO;
+#if UNITY_EDITOR
+using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -215,3 +216,4 @@ public static class Texture2dExtension
         tex.Apply();
     }
 }
+#endif
